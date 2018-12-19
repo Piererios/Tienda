@@ -1,0 +1,91 @@
+/* slider--- */
+ul,ol{
+	list-style: none;
+}
+
+
+
+.slideshow-women{
+	width: 100%;
+	position: relative;
+	
+	height: 450px;
+}
+
+.section-slider li, ul{
+	
+}
+
+.slider li{
+	overflow: hidden;
+	text-align: center;
+}
+
+.slider li img{
+	text-align: center;
+}
+
+.section-slider .caption{
+	position: absolute;
+	color: #000;
+	height: 10%;
+	top: 0;
+}
+
+.section-slider .caption h1{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 9px;
+	font-family: Poppins;
+	font-weight: 400;
+	text-align: center;
+	
+}
+
+.slider .caption p{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.section-pagination{
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.section-pagination li{
+	font-size: 10px;
+	margin: 2px 5px;
+	color: #858585;
+	cursor: pointer;
+}
+
+.left-w, .right-w{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.left-w{
+	left: 0;
+}
+
+.right-w{
+	right: 0;
+}
+.right-w span{
+
+	color: #BDBDBD;
+	font-size: 25px;
+}
+.left-w span{
+
+	color: #BDBDBD;
+	font-size: 25px;
+}
